@@ -181,7 +181,7 @@ public class EnemyAI : MonoBehaviour
                     
         DiceHoverTextManager.HoverEnemyPanelLocation = mc.GetFocusedOnTile().Value.collider.gameObject.transform.position;
         DiceHoverTextManager.HoverEnemyPanel.SetActive(true); 
-        DiceHoverTextManager.HoverEnemyPanel.transform.position = new Vector2(DiceHoverTextManager.HoverEnemyPanelLocation.x-3.5f, DiceHoverTextManager.HoverEnemyPanelLocation.y-.50f);
+        DiceHoverTextManager.HoverEnemyPanel.transform.position = new Vector2(DiceHoverTextManager.HoverEnemyPanelLocation.x-1.5f, DiceHoverTextManager.HoverEnemyPanelLocation.y-.50f);
 
         GameObject[] HoverTextEnemySides = DiceHoverTextManager.EnemySides;
 
